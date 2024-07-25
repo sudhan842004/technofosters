@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Infosmite Clone</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="logo">Infosmite Clone</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#ceos">CEOs</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="home" class="hero-section">
+        <div class="container">
+            <div class="hero-content">
+                <h2>Welcome to Infosmite Clone</h2>
+                <p>Your go-to platform for all your informational needs.</p>
+                <a href="#about" class="btn">Learn More</a>
+            </div>
+        </div>
+    </section>
+    <section id="about" class="content-section">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>We provide the best services to help you grow your business.</p>
+        </div>
+    </section>
+    <section id="services" class="content-section">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="services-grid">
+                <div class="service-item">
+                    <h3>Service 1</h3>
+                    <p>Description of service 1.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Service 2</h3>
+                    <p>Description of service 2.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Service 3</h3>
+                    <p>Description of service 3.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="ceos" class="content-section">
+        <div class="container">
+            <h2>Meet Our CEOs</h2>
+            <div class="ceo-grid">
+                <div class="ceo-item">
+                    <img src="ceo1.jpg" alt="CEO 1" class="ceo-img">
+                    <h3>CEO 1 Name</h3>
+                    <p>CEO 1 bio goes here. Briefly describe their background, achievements, and role in the company.</p>
+                    <button class="btn ceo-btn">More About CEO 1</button>
+                </div>
+                <div class="ceo-item">
+                    <img src="ceo2.jpg" alt="CEO 2" class="ceo-img">
+                    <h3>CEO 2 Name</h3>
+                    <p>CEO 2 bio goes here. Briefly describe their background, achievements, and role in the company.</p>
+                    <button class="btn ceo-btn">More About CEO 2</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="content-section">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form action="submit_form.php" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit" class="btn">Submit</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Infosmite Clone. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
